@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contáctanos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+  .navbar-nav .nav-link:hover {
+    background-color: blue; 
+    color: #f0f0f0; 
+  }
+  .custom-navbar {
+
+  background-color: #00a0fd; 
+}
+
+.carousel-custom {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.carousel-img {
+  height: 100%;
+  object-fit: cover; 
+}
+
+.contacto-seccion h1 {
+  font-family: 'Arial', sans-serif; 
+  color: #007bff;
+}
+
+.contacto-seccion p {
+  font-family: 'Georgia', serif; 
+  color: #007bff; 
+  font-size: 1.25rem;
+}
+
+
+
+</style>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rentamos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-center">
+            <li class="nav-item"><a class="nav-link active" href="./ProfectoFinalBoot.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Buscar propiedad</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Inversiones</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Arredantarios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Propietarios</a></li>
+            <li class="nav-item"><a class="nav-link" href="./Contactanos.html">Contactanos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Consigna tu mueble</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExample" class="carousel slide carousel-custom" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenesDeProyecto/rascacielos.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+    </div>
+  </div>
+  
+  <section class="container text-center my-5 contacto-seccion">
+    <h1 class="mb-4">CONTACTANIOS</h1>
+    <p>
+      Nuestro objetivo es que encuentres la casa de tus sueños, el negocio que te apasiona, para que vendas, arriendes hipoteques con prontitud tu inmueble, ¡Deja una solicitud de contacto y te llamaremos para agendar una cita!
+      Mas de 3.000 familias y empresarios han tenido una experiencia inmobiliaria con nosotros.
+    </p>
+  </section>
+  
+
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="asunto" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+
+      <div class="col-md-6 mt-4">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenesDeProyecto/mujer-sonriente-algo-presentacion-auriculares-scaled.jpg" 
+                   class="d-block w-100" 
+                   alt="..." 
+                   style="object-fit: cover; height: 400px;">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <h5 class="display-4 text-center">Información de contacto</h5>
+          <p class="fs-4"><strong>Teléfono:</strong> (604) 448 88 88</p>
+          <p class="fs-4"><strong>Email:</strong> contacto@rentamospropiedadraiz.com</p>
+          <p class="fs-4"><strong>Dirección:</strong> Medellín, Colombia</p>
+        </div>
+      </div>
+  
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="ratio ratio-4x3">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.582319141173!2d-75.57204638523854!3d6.244203995484347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282d1dc96f1d%3A0x5d470d6e3d1c3e5f!2sRentamos%20Propiedad%20Ra%C3%ADz!5e0!3m2!1ses!2sco!4v1680552821220!5m2!1ses!2sco" 
+              width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+       </div>
+
+
+       
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="bg-light text-center py-4">
+    <p class="mb-0">&copy; 2025 Rentamos Propiedad Raíz. Todos los derechos reservados.</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
